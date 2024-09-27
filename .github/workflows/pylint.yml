@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
+      # BELOW LINE WAS UPDATED TO v5 by Vikas. Originally it was v3 and throwing warning.
+      # The following actions use a deprecated Node.js version and will be forced to 
+      # run on node20: actions/setup-python@v3. 
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
