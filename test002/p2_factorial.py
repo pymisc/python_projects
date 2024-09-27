@@ -5,8 +5,8 @@ def factorial(n):
     var_x= 1
     var_y= 1
     while var_x <= n:
-        var_y = (var_x*var_y)
-        var_x += 1    
+        var_y = var_x * var_y
+        var_x += 1
     return var_y
 
 # testing the function
