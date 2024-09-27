@@ -8,7 +8,7 @@ def factorial(n):
         return n * factorial(n-1)
 
 # testing the function
-number = 5
+NUMBER = 5
 
-result = factorial(number)
-print(f"The factorial of {number} is : {result}")
+result = factorial(NUMBER)
+print(f"The factorial of {NUMBER} is : {result}")
