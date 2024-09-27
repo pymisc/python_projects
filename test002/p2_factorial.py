@@ -2,14 +2,14 @@
 
 def factorial(n):
     """ this is the main function to find factorial """
-    X = 1
-    Y = 1
-    while X <= n:
-        Y = (X*Y)
-        X += 1    
-    return Y
+    XX = 1
+    YY = 1
+    while XX <= n:
+        YY = (XX*YY)
+        XX += 1    
+    return YY
 
 # testing the function
 NUMBER = 4
-result = factorial(NUMBER)
-print(f"The factorial of {NUMBER} is : {result}")
+RESULT = factorial(NUMBER)
+print(f"The factorial of {NUMBER} is : {RESULT}")
