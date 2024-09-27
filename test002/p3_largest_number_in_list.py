@@ -7,7 +7,6 @@ def find_largest_number(input_list):
         largest_number = max(largest_number, num)
     return largest_number
 
-""" testing main function """
 list_to_test = [ 2 , 5 , 10 , 20 , 100 , 1 ]
 RESULT = find_largest_number(list_to_test)
 
