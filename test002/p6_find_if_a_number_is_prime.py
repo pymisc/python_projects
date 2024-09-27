@@ -2,17 +2,16 @@
 
 def prime_finder(number):
     """ the function where it checks and return if prime or not """
-    counter = 2 
+    counter = 2
     for counter in range(2,number,1):
         print(f" counter value is: {counter}")
-        REMAINDER = number % counter
-        if REMAINDER == 0:
+        remainder_number = number % counter
+        if remainder_number == 0:
             return False
     return True
-          
 
-# main function calling 
-NUMBER = 67
+# main function calling
+NUMBER = 11
 #prime_finder(NUMBER)
 if prime_finder(NUMBER):
     print(f"YES, the {NUMBER} is a prime number")
