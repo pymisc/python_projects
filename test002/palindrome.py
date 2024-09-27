@@ -1,6 +1,4 @@
 """ checking if the given word is a palindrome """
-
-""" function to check if the word is a palindrome """
 def is_palindrome(string):
     reversed_string = string[::-1]
     print("REVERSED STRING IS: ", reversed_string)
