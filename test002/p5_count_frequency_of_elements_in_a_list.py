@@ -4,7 +4,7 @@ def count_frequency(numbers):
     """ function to count frequency of given list """
     frequency = {}
     for num in numbers:
-        print(num) 
+        print(num)
         if num in frequency:
             frequency[num] += 1
         else:
