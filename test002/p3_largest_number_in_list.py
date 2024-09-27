@@ -1,6 +1,7 @@
 """ this program is to find largest number in a list """
 
 def find_largest_number(input_list):
+    """ this function will help to find max number from given list """
     largest_number = input_list[0]
     for num in input_list:
         largest_number = max(largest_number, num)
