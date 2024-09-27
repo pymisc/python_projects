@@ -2,12 +2,12 @@
 
 def factorial(n):
     """ this is the main function to find factorial """
-    VAR_X= 1
-    VAR_Y= 1
-    while VAR_X <= n:
-        VAR_Y = (VAR_X*VAR_Y)
-        VAR_X += 1    
-    return VAR_Y
+    var_x= 1
+    var_y= 1
+    while var_x <= n:
+        var_y = (var_x*var_y)
+        var_x += 1    
+    return var_y
 
 # testing the function
 NUMBER = 4
