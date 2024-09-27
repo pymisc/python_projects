@@ -2,13 +2,14 @@
 
 def factorial(n):
     """ this is the main function to find factorial """
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
+    X = 1
+    Y = 1
+    while X <= n:
+        Y = (X*Y)
+        X += 1    
+    return Y
 
 # testing the function
-NUMBER = 5
-
+NUMBER = 4
 result = factorial(NUMBER)
 print(f"The factorial of {NUMBER} is : {result}")
