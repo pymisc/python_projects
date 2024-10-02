@@ -6,4 +6,3 @@ New repo with PyLint and all bells and whistles for syntax check testing
 |-----|------------------|
 | test001 | basic functionality testing | 
 | test002 | basic programs |
-|-----|------------------|
