@@ -1,0 +1,15 @@
+#!/bin/bash
+#######################################################################
+# Author	:	Vikas
+# Date		:
+# Purpose	:	This script is to sync up repo with changes in remote (main) repo
+#			and push any changes from local repo to remote repo.
+#######################################################################
+
+cd ~/gitrepos/python_projects/
+
+git add .
+git commit -am "New code as of `date`"
+git push
+
+
