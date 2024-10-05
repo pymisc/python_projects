@@ -4,6 +4,9 @@ def print_func1():
     """ to print some same headers """
     print("***" * 15)
 
+def print_reverse(x):
+    """ function to print reverse to whatever string is passed """
+    return x[::-1]
 
 # print_func1()
 # print("Hello " * 5)
@@ -18,3 +21,11 @@ print(f"Lower case: {s1.lower()}")      # To lowercase entire string
 print(f"Casefold: {s1.casefold()}")     # Casefold is same as lower but also deals with unicode
 print(f"Centralized: {s1.center(40)}")  # Centralize the text with a total of n number of spaces
 print(f"Count text: {s1.count(" ")}")        # Count the occurance of specific word etc
+
+
+# REVERSING STRINGS
+str1 = "This is how we reverse a string using a function"
+str2 = print_reverse(str1)
+str3 = print_reverse(str2)
+
+print(f"{str2} :: {str3}")
