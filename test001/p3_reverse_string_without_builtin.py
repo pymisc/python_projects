@@ -2,8 +2,8 @@
 
 def myfunction(x):
     """ this is the function to actually reverse string """
-    LEN = len(x)
-    for i in range(1, LEN+1, 1):
+    len_string = len(x)
+    for i in range(1, len_string+1, 1):
         # print(i)
         print(x[-i], end="")
 
