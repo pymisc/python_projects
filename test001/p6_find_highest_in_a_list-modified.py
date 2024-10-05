@@ -13,14 +13,14 @@ def smallest_number_finder(x):
 
 def biggest_number_finder(x):
     """ this is to find biggest number in the list """
-    LEN1=len(x)
-    print(LEN1)
+    len1=len(x)
+    print(len1)
     # below is starting assumption
-    BIGGEST=x[0]
-    for i in range(0, LEN1, 1):
-        if x[i] > BIGGEST:
-            BIGGEST = x[i]
-    return BIGGEST
+    biggest_number=x[0]
+    for i in range(0, len1, 1):
+        if x[i] > biggest_number:
+            biggest_number = x[i]
+    return biggest_number
 
 
 
