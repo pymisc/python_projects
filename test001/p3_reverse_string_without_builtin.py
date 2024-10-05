@@ -8,8 +8,8 @@ def myfunction(x):
         print(x[-i], end="")
 
 
-str1 = "this is to reverse"
-print(f"String passed: {str1}")
-myfunction(str1)
+STR1 = "this is to reverse"
+print(f"String passed: {STR1}")
+myfunction(STR1)
 
 print("")
