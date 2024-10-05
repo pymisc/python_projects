@@ -2,9 +2,9 @@
 
 def function_to_rev(x):
     """ this function will do actual reverse, when passed a parameter """
-    LEN = len(x)
-    print(f"String length is: {LEN}")
-    for n in range(1, LEN+1, 1):
+    str_len = len(x)
+    print(f"String length is: {str_len}")
+    for n in range(1, str_len+1, 1):
         print(x[-n], end="")
 
 STR1="test 123"
