@@ -2,14 +2,14 @@
 
 def smallest_number_finder(x):
     """ this is to find smallest number in the list """
-    LEN1=len(x)
-    print(LEN1)
+    len1=len(x)
+    print(len1)
     # below is starting assumption
-    SMALLEST=x[0]
-    for i in range(0, LEN1, 1):
-        if x[i] < SMALLEST:
-            SMALLEST = x[i]
-    return SMALLEST
+    smallest_number=x[0]
+    for i in range(0, len1, 1):
+        if x[i] < smallest_number:
+            smallest_number = x[i]
+    return smallest_number
 
 def biggest_number_finder(x):
     """ this is to find biggest number in the list """
