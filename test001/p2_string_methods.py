@@ -24,8 +24,8 @@ print(f"Count text: {s1.count(' ')}")   # Count the occurance of specific word e
 
 
 # REVERSING STRINGS
-str1 = "This is how we reverse a string using a function"
-str2 = print_reverse(str1)
-str3 = print_reverse(str2)
+STR1 = "This is how we reverse a string using a function"
+STR2 = print_reverse(STR1)
+STR3 = print_reverse(STR2)
 
-print(f"{str2} :: {str3}")
+print(f"{STR2} :: {STR3}")
