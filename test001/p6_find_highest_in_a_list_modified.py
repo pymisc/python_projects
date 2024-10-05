@@ -32,4 +32,3 @@ RESULT2=biggest_number_finder(LIST1)
 
 print(f"Smallest number is: {RESULT1}")
 print(f"Largest number is: {RESULT2}")
- 
