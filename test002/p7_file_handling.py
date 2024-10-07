@@ -1,8 +1,8 @@
 """ this program demonstrate file handling """
 
-# READONLY FILE 
+# READONLY FILE
 
-F1 = open('/tmp/file1', 'r') 
+F1 = open('/tmp/file1', 'r', encoding="utf-8")
 
 #print(F1.read())
 
